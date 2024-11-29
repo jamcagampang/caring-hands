@@ -24,6 +24,6 @@ public class Donor extends User {
 	@Override
 	public String getDetails() {
 		String details = super.getDetails();
-		return details + (amountDonated != 0 ? " - ₱" + amountDonated : "");
+		return details + (amountDonated != 0 ? " - P" + amountDonated : "");
 	}
 }
