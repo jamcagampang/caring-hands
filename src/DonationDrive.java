@@ -173,10 +173,10 @@ public class DonationDrive {
 	public void disburseDonation() {
 
 		double totalDonation = totalDonation();
-		System.out.println("Total Donation: ₱" + totalDonation);
+		System.out.println("Total Donation: P" + totalDonation);
 
 		double amountEach = Math.floor(totalDonation / beneficiaries.size());
-		System.out.println("Each Will Get: ₱" + amountEach);
+		System.out.println("Each Will Get: P" + amountEach);
 
 		System.out.println("List of Beneficiaries:");
 		for (Beneficiary benificiary : beneficiaries) {
@@ -186,7 +186,7 @@ public class DonationDrive {
 	}
 
 	public void displayPastDisbursement() {
-		System.out.println("Total Donation: ₱" + totalDonation());
+		System.out.println("Total Donation: P" + totalDonation());
 		System.out.println("Donors:");
 		printAllDonors(false);
 		System.out.println("Beneficiaries:");

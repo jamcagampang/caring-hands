@@ -16,7 +16,7 @@ public class CaringHandsManager {
 			System.out.println("* " + drive.getName());
 			System.out.println("  - Start Date    : " + formatter.format(drive.getStartDate()));
 			System.out.println("  - End Date      : " + formatter.format(drive.getEndDate()));
-			System.out.println("  - Total Donation: ₱" + drive.totalDonation());
+			System.out.println("  - Total Donation: P" + drive.totalDonation());
 		}
 		if (pending.isEmpty()) {
 			System.out.println("* None Yet");
@@ -27,7 +27,7 @@ public class CaringHandsManager {
 			System.out.println("* " + drive.getName());
 			System.out.println("  - Start Date    : " + formatter.format(drive.getStartDate()));
 			System.out.println("  - End Date      : " + formatter.format(drive.getEndDate()));
-			System.out.println("  - Total Donation: ₱" + drive.totalDonation());
+			System.out.println("  - Total Donation: P" + drive.totalDonation());
 		}
 		if (done.isEmpty()) {
 			System.out.println("* None Yet");

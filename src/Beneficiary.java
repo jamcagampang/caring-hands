@@ -23,6 +23,6 @@ public class Beneficiary extends User {
 	@Override
 	public String getDetails() {
 		String details = super.getDetails();
-		return details + (amountReceived != 0 ? " - ₱" + amountReceived : "");
+		return details + (amountReceived != 0 ? " - P" + amountReceived : "");
 	}
 }
