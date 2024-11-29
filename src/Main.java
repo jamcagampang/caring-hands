@@ -305,7 +305,7 @@ public class Main {
 			hasFound = caringHandsManager.hasBeneficiary(index);
 			if (hasFound) {
 				hasFound = false;
-				caringHandsManager.printAllBeneficiaries(index);
+				caringHandsManager.printAllBeneficiaries(index, true);
 				while (!hasFound) {
 					int userIndex = safeRetrieveInt("Select user: ");
 					hasFound = caringHandsManager.removeBeneficiary(index, userIndex);
